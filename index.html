@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+</head>
+<style>
+    .box1, .box2 {
+        position: relative;
+        background-size: cover;
+        background-position:center;
+        height: 100vh;
+        opacity: 60%;
+    }
+    .box1{
+        background-image: url('NY1.jpg');        
+    }
+    .box2{
+        background-image: url('wallpaper2.jpg');
+    }
+    .text{position: absolute;
+        text-align: center;
+        top:50%;
+        width: 100%;
+    }
+    .text .border{
+        border: 1px solid black;
+        height: 25px; width: 150px;
+        padding: 15px;
+        text-align: center;
+        background:black;
+        font-weight: 700;
+        color: white;
+        font-size: 20px;
+    }
+    #section1{text-align: center;
+        background-color: grey;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    #section2{text-align: center;
+        background-color:darkslateblue;
+        color: white;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .text .bordertrans{
+        background-color:transparent;
+        font-weight: bold;
+        color: red;
+        font-size: 40px;
+    }
+    #part1{ 
+        display: flex;
+        text-align: center;
+    }
+
+    .table1, .table3 {margin-left:auto;
+    margin-right:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+        background-color: turquoise;
+    }
+    .table2{
+        background-color: lavenderblush;
+        margin-left:auto;
+        margin-right:auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+</style>
+<body>
+    <div class="box1">
+        <div class="text">
+            <span class="border">
+                Parallex Website
+            </span>
+        </div>
+    </div> 
+    <section id="section1">
+        <h2 style="padding: 5px;">Section One</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!</p>
+    </section>
+    <div class="box2">
+        <div class="text">
+            <span class="bordertrans">
+                Image to Text
+            </span>
+        </div>
+    </div>
+    <section id="section2">
+        <h2>Section Two</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.</p>
+    </section>
+    <footer id="showcase1">
+        <section id="part1">
+            <div class="table1">
+                <label>Created By :</label>
+                <p>Yash Khakhi</p>
+            </div>
+            <div class="table2">
+                <label>Contact Number :</label>
+                <p>9712926846</p>
+            </div>
+            <div class="table3">
+                <label>Email-ID :</label>
+                <p>yashkhakhi9@gmail.com</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
